@@ -1,5 +1,7 @@
 # BB8 Sequencer
 
+![](BB8.jpg)
+
 This is my version of a baby 8 sequencer. It has a built-in oscillator or can be driven by another clock source. Either way, the clock can be stopped and single-stepped for tuning. A clock output lets you use this as the clock source for something else, or daisy chain the input clock.
 
 The output is in the range of roughly 0-4V. A switch lets you add or subtract 1V. It uses a standard 16-pin eurorack power header. It is 11HP wide.
