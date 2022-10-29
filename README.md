@@ -4,7 +4,7 @@
 
 This is my version of a baby 8 sequencer. It has a built-in oscillator or can be driven by another clock source. Either way, the clock can be stopped and single-stepped for tuning. A clock output lets you use this as the clock source for something else, or daisy chain the input clock.
 
-The output is in the range of roughly 0-4V. A switch lets you add or subtract 1V. It uses a standard 16-pin eurorack power header. It is 11HP wide.
+The output is in the range of roughly 0-4V. A switch lets you add or subtract 1V. The trimmer lets you calibrate the +1v amount. It uses a standard 16-pin eurorack power header. It is 11HP wide.
 
 ## BOM
 
@@ -15,7 +15,7 @@ The output is in the range of roughly 0-4V. A switch lets you add or subtract 1V
 |   1 | U1 | CD40106 |
 |   3 |    | 8-pin DIP socket | optional
 |   1 |    | 14-pin DIP socket | optional
-|  11 | R7, R8, R9, R10, R11, R12, R13, R21, R22, R23, R24, R26, R27 | 1k resistor 1/4W | Increase for dimmer LEDs
+|  13 | R7, R8, R9, R10, R11, R12, R13, R21, R22, R23, R24, R26, R27 | 1k resistor 1/4W | Increase for dimmer LEDs
 |   1 | R4 | 2.2k resistor 1/4W |
 |   1 | R2 | 6.8k resistor 1/4W |
 |   3 | R5 | 10k resistor 1/4W |
